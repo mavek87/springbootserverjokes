@@ -15,10 +15,10 @@ public class ServerjokesApplication {
 	}
 
 	private static void popolaJokesRepository(JokesRepository jokesRepository) {
-		jokesRepository.addJoke(new Joke("Primo joke"));
-		jokesRepository.addJoke(new Joke("Secondo joke"));
-		jokesRepository.addJoke(new Joke("Terzo joke"));
-		jokesRepository.addJoke(new Joke("Quarto joke"));
-		jokesRepository.addJoke(new Joke("Quinto joke"));
+		jokesRepository.addJoke(new Joke("First joke"));
+		jokesRepository.addJoke(new Joke("Second joke"));
+		jokesRepository.addJoke(new Joke("Third joke"));
+		jokesRepository.addJoke(new Joke("Fourth joke"));
+		jokesRepository.addJoke(new Joke("Fifth joke"));
 	}
 }
